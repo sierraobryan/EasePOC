@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:fab="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorWhite"
+        tools:context=".ui.activity.HomeActivity">
+
+    <include layout="@layout/background_floral"/>
+
+    <include
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            layout="@layout/content_you"/>
+
+    <com.getbase.floatingactionbutton.FloatingActionsMenu
+            android:id="@+id/multiple_actions"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            fab:fab_addButtonColorNormal="@color/colorPrimaryDark"
+            fab:fab_addButtonColorPressed="@color/colorPrimary"
+            fab:fab_addButtonPlusIconColor="@color/colorWhite"
+            fab:fab_labelStyle="@style/menu_labels_style"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp">
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+                android:id="@+id/action_a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                fab:fab_colorNormal="@color/colorPrimary"
+                fab:fab_title="@string/calendar"
+                android:src="@drawable/ic_event_note_black_24dp"
+                fab:fab_colorPressed="@color/colorPrimaryDark"/>
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+                android:id="@+id/action_b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                fab:fab_colorNormal="@color/colorPrimary"
+                fab:fab_title="@string/progress"
+                android:src="@drawable/ic_gesture_black_24dp"
+                fab:fab_colorPressed="@color/colorPrimaryDark"/>
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+                android:id="@+id/action_c"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                fab:fab_colorNormal="@color/colorPrimary"
+                fab:fab_title="@string/journals"
+                android:src="@drawable/ic_library_books_black_24dp"
+                fab:fab_colorPressed="@color/colorPrimaryDark"/>
+
+    </com.getbase.floatingactionbutton.FloatingActionsMenu>
+
+</RelativeLayout>

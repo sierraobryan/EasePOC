@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Ease</string>
+    <string name="title_you">You</string>
+    <string name="title_home">Home</string>
+    <string name="title_family">Family</string>
+    <string name="title_community">Community</string>
+    <string name="title_progress">Mood</string>
+    <string name="title_forum"> Forum</string>
+    <string name="title_calendar">Calendar</string>
+    <string name="your_circle">Your Circle</string>
+    <string name="send_message">Send Message</string>
+    <string name="share_mood">Share Mood</string>
+    <string name="share_calendar">Share Calendar</string>
+    <string name="assign_role">Assign Role</string>
+    <string name="how_do_you_feel">How do you feel today?</string>
+    <string name="journal">Journal of the Day</string>
+    <string name="progress">Progress</string>
+    <string name="journals">Journals</string>
+    <string name="calendar">Calendar</string>
+    <string name="save">Save</string>
+    <string name="author_name_placeholder">Alex Elle</string>
+    <string name="quote_placeholder">“The sun will rise and set regardless. What we choose to do with the light while it’s here is up to us. Journey Wisely.”</string>
+</resources>
